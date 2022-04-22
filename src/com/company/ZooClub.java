@@ -1,6 +1,12 @@
 package com.company;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 
 public class ZooClub {
 
@@ -63,7 +69,7 @@ public class ZooClub {
                         Pet pet = new Pet(namePet, kindOfAnimal);
                         map.get(person).remove(map.get(person).indexOf(pet));
                     } else {
-                        System.out.println("Питомец не найден!");
+                        System.out.println("Тваринка не найдена");
                     }
                     break;
                 }
